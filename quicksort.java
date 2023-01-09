@@ -12,6 +12,7 @@ public class quicksort {
         System.out.println("");
         quickSort(hi);
         System.out.println("After: " + hi);
+        scan.close();
     }
     static void quickSort(LinkedList<Integer> link){
         qs(link, 0, link.size()-1);
