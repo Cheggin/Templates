@@ -29,7 +29,7 @@ public class merge_sort {
                 Technically, you don't need a third pointer; you could just use p1 + p2. 
                 I just decided to use a third pointer for simplicity.
                 */ 
-                p1++; // move ahead the pointer for the respective list that we added from
+                p1++; // move ahead the pointer for the respective list that we added from, as to not repeat adding the same number
             }
             else{
                 sorted[p3] = a2[p2];
