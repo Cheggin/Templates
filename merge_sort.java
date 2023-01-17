@@ -3,9 +3,11 @@ import java.util.Arrays;
 public class merge_sort {
     public static void main(String[] args){
         int[] arr1 = new int[]{5, 4, 3, 2, 1};
-        int[] arr2 = new int[]{1, 4, 6, 1, 3};
+        int[] arr2 = new int[]{1, 4, 6, 1, 3}; 
+        // Requirement: The two lists to be merged must be sorted
         Arrays.sort(arr1);
         Arrays.sort(arr2);
+        //
         int[] sorted = merge(arr1, arr2);
         for(int i: sorted){
             System.out.print(i + " ");
